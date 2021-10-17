@@ -1,0 +1,65 @@
+.destination {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info {
+  width: 500px;
+  color: #fff;
+  text-align: left;
+}
+.info h2 {
+  font-family: Bebas Neue;
+}
+.info p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.date-inputs {
+  width: 430px;
+  height: 430px;
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.date-inputs input {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.dateInput {
+  width: 190px !important;
+  /* display: inline-block; */
+}
+label {
+  text-align: left !important;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  color: #818181;
+}
+.dateInputGroup {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.start-booking {
+  height: 60px;
+  width: 400px;
+  margin-top: 20px !important;
+  font-weight: 600 !important;
+}

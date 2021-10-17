@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Header from "./components/Header/Header"
+// import Home from './components/Home/Home';
+import DestinationDetail from './components/destinationDetail/DestinationDetail';
+import Hero from './components/Hero/Hero';
+import Login from './components/Login/Login';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header></Header>
+        <Switch>
+          <Route exact path="/">
+            <Hero></Hero>
+          </Route>
+          <Route path="/home">
+            <Hero></Hero>
+          </Route>
+          <Route path="/:name">
+            <DestinationDetail></DestinationDetail>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,65 @@
+.container {
+  width: 1200px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 40px;
+}
+.logo img {
+  width: 120px;
+  text-align: left;
+  float: left;
+}
+
+.input-group {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 360px;
+  height: 39px;
+  margin: 0 44px 0 70px;
+}
+.input-group input {
+  border: none !important;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  color: #fff;
+  width: 100%;
+}
+.input-group input::placeholder {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.input-group svg {
+  font-size: 24px;
+  padding-right: 10px;
+}
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-links ul li {
+  list-style: none;
+  padding: 0 30px;
+}
+.nav-links ul li a {
+  text-decoration: none !important;
+  color: #fff;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+.log-in {
+  background-color: #f9a51a !important;
+  padding: 7px 30px !important;
+  font-size: 16px !important;
+  color: black !important;
+}

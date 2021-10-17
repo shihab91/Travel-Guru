@@ -1,0 +1,68 @@
+.hero-container {
+  width: 1200px;
+  margin-top: 120px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+}
+.text-info {
+  width: 450px;
+  text-align: left;
+  color: #fff;
+}
+h1 {
+  font-size: 100px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  margin: 0;
+  line-height: 90px;
+}
+.text-info p {
+  line-height: 24px;
+}
+.booking {
+  margin-top: 20px !important ;
+}
+.booking svg {
+  font-size: 24px;
+  margin-left: 5px;
+}
+/* .wrapper {
+  display: inline-block;
+  overflow: none !important;
+  z-index: 99;
+} */
+.wrapper {
+  width: 750px;
+}
+.cards {
+  width: 90%;
+  color: #fff;
+  display: inline-block;
+}
+.single-card {
+  position: relative;
+  width: 0%;
+  cursor: pointer;
+}
+.single-card:active,
+.single-card:focus {
+  border: none;
+  outline: none;
+}
+.single-card img {
+  filter: brightness(70%);
+  border-radius: 20px;
+  width: 270px;
+}
+.single-card h2 {
+  position: absolute;
+  bottom: 37px;
+  left: 21px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  margin: 0;
+}
